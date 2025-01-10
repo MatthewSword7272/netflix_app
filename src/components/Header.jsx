@@ -5,7 +5,7 @@ import Button from './Button'
 
 const Header = () => {
   return (
-    <div className='flex items-center justify-between p-4 z-[100] w-full absolute'>
+    <header className='flex items-center justify-between p-4 z-[100] w-full absolute'>
         {/* Netflix Logo */}
         <div className='w-1/6 min-w-20 max-w-40 cursor-pointer'>
           <NetflixLogo />
@@ -16,7 +16,7 @@ const Header = () => {
           <Button buttonText={'Sign Up'} variant={'primary'}/>
           
         </div>
-    </div>
+    </header>
   )
 }
 
