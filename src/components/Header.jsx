@@ -12,8 +12,8 @@ const Header = () => {
         </div>
         <div>
           {/* Buttons for Sign in and Up */}
-          <Button buttonText={'Sign In'} variant={'secondary'}/>
-          <Button buttonText={'Sign Up'} variant={'primary'}/>
+          <Button buttonText={'Sign In'} variant={'transparent'}/>
+          <Button buttonText={'Sign Up'} variant={'red'}/>
           
         </div>
     </header>
