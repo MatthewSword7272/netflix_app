@@ -19,8 +19,6 @@ const Main = () => {
     return str?.length > num ? str.slice(0, num) + "..." : str;
   }
 
-  console.log(movie);
-
   return (
     <div className="w-full h-[35rem]">
       <div className="w-full h-full">
